@@ -1,0 +1,87 @@
+/* ===== General Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Helps manage spacing with the Box Model */
+}
+
+/* ===== Body Styling ===== */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* ===== Header ===== */
+.site-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 3px solid #2e7d32; /* Demonstrates border in the box model */
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ===== Section Styling ===== */
+.intro {
+  background-color: #e3f2fd;
+  padding: 15px;
+  margin: 20px 0;
+  border: 2px solid #2196F3;
+  border-radius: 5px;
+}
+
+/* ===== Cards ===== */
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  flex: 1;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 15px;
+}
+
+.card button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card button:hover {
+  background-color: #45a049;
+}
+
+/* ===== Footer ===== */
+.site-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
